@@ -2,10 +2,12 @@ package com.ecommerce.product_service.controller;
 
 import com.ecommerce.product_service.dto.*;
 import com.ecommerce.product_service.service.ProductService;
+
+import jakarta.validation.Valid;
+
 import org.springframework.security.core.Authentication;
 import org.springframework.web.bind.annotation.*;
 
-import jakarta.validation.Valid;
 
 @RestController
 @RequestMapping("/products")
